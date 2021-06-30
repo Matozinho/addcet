@@ -9,7 +9,7 @@
 
         //Entrada do array
         printf("Digite a sua palavra: ");
-        scanf("%s", string);
+        fgets(string,MAXSIZE,stdin);
 
         //Encontando o tamnho do array
         size = strlen(string);
