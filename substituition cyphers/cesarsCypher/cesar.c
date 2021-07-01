@@ -32,8 +32,8 @@
 
         }
 
-            //Saida
-            printf("String Criptografada: %s\n", string);
+        //Saida
+        printf("String Criptografada: %s\n", string);
 
         return 0;
 
