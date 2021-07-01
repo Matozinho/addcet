@@ -23,4 +23,4 @@ const cesarsCypher = (text, n) => {
   return cypheredText.join("");
 };
 
-console.log(cesarsCypher("FESTA CONFIRMADA NO PrOXIMO SABADO A NOiTe", 3));
+export { cesarsCypher, isLower };
